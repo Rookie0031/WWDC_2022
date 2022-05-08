@@ -1,6 +1,6 @@
 ## GestureWithBalloon!
 
-This App is playground app made for Swift student challenge of WWDC 2022.
+This App is playground app made for Swift student challenge of WWDC 2022.   
 In this app, you can experience iOS finger gestures while playing with balloon.
 
 ## Description
