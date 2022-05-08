@@ -5,7 +5,7 @@ In this app, you can experience iOS finger gestures while playing with balloon.
 
 ## Description
 Users touch balloon according to guideline and get response.
-Balloon responds differently to the different finger gestures.
+Balloon responds differently to the different finger gestures.    
 Guideline includes when and where each finger gesture is used, based on human interface guideline of Apple.
 
 ## App features
