@@ -1,4 +1,6 @@
-# WWDC_2022
+## WWDC_2022
 
-Let's learn 5 gesutures of iOS system!
+In this app, you can experience iOS finger gestures while playing with balloon
+
+## App features
 
