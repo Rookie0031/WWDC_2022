@@ -20,6 +20,10 @@ Guideline includes when and where each finger gesture is used, based on human in
 [Three finger gesture]
 - 3finger tab gesture : to pop up the balloon
 
+## Demo
+
+## Screenshots
+
 ## App purpose
 [Why finger gesture?]
 - Finger gesture is one of the most distinctive feature of iOS, which differentiates from other system.
