@@ -24,12 +24,12 @@ Guideline includes when and where each finger gesture is used, based on human in
 ![Demo](https://user-images.githubusercontent.com/103009135/167303831-9beb5c36-59c3-405e-814e-5104c1ff9719.mov)
 
 
-<img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="450" height="600">
+
 
 ## Screenshots
-<img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="300" height="300">
-![2](https://user-images.githubusercontent.com/103009135/167303841-f27f6496-f224-4290-88e4-688805f9b8c2.png)
-![3](https://user-images.githubusercontent.com/103009135/167303843-69d0858f-20b0-40af-87e0-cab20ca66c0e.png)
+<img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="450" height="600">
+<img src = "https://user-images.githubusercontent.com/103009135/167303841-f27f6496-f224-4290-88e4-688805f9b8c2.png" width="450" height="600">
+<img src = "https://user-images.githubusercontent.com/103009135/167303843-69d0858f-20b0-40af-87e0-cab20ca66c0e.png" width="450" height="600">
 
 ## App purpose
 [Why finger gesture?]
