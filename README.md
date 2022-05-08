@@ -21,6 +21,7 @@ Guideline includes when and where each finger gesture is used, based on human in
 - 3finger tab gesture : to pop up the balloon
 
 ## Demo
+(https://user-images.githubusercontent.com/103009135/167303831-9beb5c36-59c3-405e-814e-5104c1ff9719.mov)
 
 ## Screenshots
 
