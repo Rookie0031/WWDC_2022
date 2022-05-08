@@ -24,7 +24,7 @@ Guideline includes when and where each finger gesture is used, based on human in
 ![Demo](https://user-images.githubusercontent.com/103009135/167303831-9beb5c36-59c3-405e-814e-5104c1ff9719.mov)
 
 
-<img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="300" height="300">
+<img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="450" height="600">
 
 ## Screenshots
 <img src = "https://user-images.githubusercontent.com/103009135/167303838-41ccea86-0011-4ccf-829e-3a5d421350da.png" width="300" height="300">
