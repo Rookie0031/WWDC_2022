@@ -35,3 +35,7 @@ Guideline includes when and where each finger gesture is used, based on human in
 
 - Apple Developer Document 
 https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/gestures/ 
+
+
+## Thanks to
+Thanks for all the Apple Developer Academy associators for promoting this challenge. 
