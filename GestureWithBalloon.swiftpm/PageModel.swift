@@ -12,23 +12,22 @@ struct Story {
     
     let pages: [StoryPage]
     
-    subscript(_ pageIndex: Int) -> StoryPage {
+    subscript(pageIndex: Int) -> StoryPage {
         return pages[pageIndex]
     }
 }
 
 struct StoryPage {
-    let text: String
     
     let choices: [Choice]
     
-    init(_ text: String, choices: [Choice]) {
-        self.text = text
+    init(_ choices: [Choice]) {
         self.choices = choices
     }
 }
 
-struct Choice {
+struct Choice : Hashable {
+    
     let text: String
     let destination: Int
 }
