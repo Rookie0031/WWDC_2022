@@ -12,6 +12,7 @@ struct PageView: View {
     let screenWidth1 = UIScreen.main.bounds.size.width
     let screenHeight1 = UIScreen.main.bounds.size.height
     
+    // Input Parameter
     let story: Story
     let pageIndex: Int
     
@@ -19,7 +20,6 @@ struct PageView: View {
         
         VStack {
             
-            if pageIndex == 0 {
                 Text(guide[pageIndex])
                     .font(.largeTitle)
                     .bold()
@@ -29,21 +29,13 @@ struct PageView: View {
                     .font(.title2)
                     .offset(y: -screenWidth1*0.15)
                 
-            } else {
-                
-                Text(guide[pageIndex])
-                    .font(.largeTitle)
-                    .bold()
-                    .offset(y: -screenWidth1*0.17)
-                
-                Text(gestureExplanation[pageIndex])
-                    .font(.title2)
-                    .offset(y: -screenWidth1*0.15)
-            }
-            
+     
             BalloonView(selection: pageIndex)
             
-            ForEach(story[pageIndex].choices, id: \Choice.text) { choice in
+            // story의 detination은 1부터 시작,
+            // destiation의 pageIndex는 choice에서 가져오며, 거기는 destination이 1부터 시작함.
+            
+            ForEach(story[pageIndex].choices, id: \.self) { choice in
                 NavigationLink(destination: PageView(story: story, pageIndex: choice.destination)) {
                     Text(choice.text)
                         .font(.title3)
@@ -70,8 +62,7 @@ struct PageView: View {
     
     var pageTitle : [String] = [
         "Departure", "TapGesture", "LongTapGesture", "DragGesture",
-        "RotateGesture", "CustomizedGesture", "Play on you own!"
-    ]
+        "RotateGesture", "CustomizedGesture", "Play on you own!" ]
     
     
     let guide : [String] = [
@@ -79,9 +70,7 @@ struct PageView: View {
         
         "Tap the balloon to get response!",
         
-        """
-        Touch and hold the balloon!
-        """
+        "Touch and hold the balloon!"
         ,
         "Swipe the balloon!"
         ,
@@ -89,8 +78,7 @@ struct PageView: View {
         
         "Tap with three fingers!",
         
-        "Explore all the gestures!"
-    ]
+        "Explore all the gestures!" ]
     
     let gestureExplanation : [String] = [
         "Let's learn finger gestures of iOS with balloon!",
@@ -105,14 +93,12 @@ struct PageView: View {
         
         "You can create your own gesture with iPad in Accesibility",
         
-        "And Create your own gesture!"
-        
-    ]
-}
+        "And Create your own gesture!" ]
+        }
 
 struct Page_Previews: PreviewProvider {
     static var previews: some View {
-        PageView(story: story, pageIndex: 0)
+        PageView(story: storyInformation, pageIndex: 0)
     }
 }
 
